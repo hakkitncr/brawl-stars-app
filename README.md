@@ -69,11 +69,6 @@ npm run dev
 
 ---
 
-## 📸 Screenshots
-
-Voeg hier screenshots toe
-
----
 
 ## 📚 Bronnen
 
