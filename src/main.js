@@ -1,4 +1,7 @@
 import './style.css'
+export default {
+  base: '/brawl-stars-app/'
+}
 
 const container = document.querySelector("#app")
 const searchInput = document.querySelector("#search")
