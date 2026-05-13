@@ -1,7 +1,9 @@
 import './style.css'
-export default {
+import { defineConfig } from 'vite'
+
+export default defineConfig({
   base: '/brawl-stars-app/'
-}
+})
 
 const container = document.querySelector("#app")
 const searchInput = document.querySelector("#search")
