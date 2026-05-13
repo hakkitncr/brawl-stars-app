@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Brawl Stars App</title>
+  <script type="module" crossorigin src="/brawl-stars-app/assets/index-DnjTuU3H.js"></script>
+  <link rel="stylesheet" crossorigin href="/brawl-stars-app/assets/index-INKHfyBW.css">
+</head>
+
+<body>
+  <h1>Brawl Stars</h1>
+
+  <div class="theme-switch">
+    <input type="checkbox" id="themeToggle" />
+    <label for="themeToggle">🌙 / ☀️</label>
+  </div>
+
+  <input type="text" id="search" placeholder="Search brawler..." />
+
+  <select id="rarityFilter">
+    <option value="all">All</option>
+    <option value="Rare">Rare</option>
+    <option value="Super Rare">Super Rare</option>
+    <option value="Epic">Epic</option>
+    <option value="Mythic">Mythic</option>
+    <option value="Legendary">Legendary</option>
+  </select>
+
+  <select id="sort">
+    <option value="default">Sort</option>
+    <option value="az">A-Z</option>
+    <option value="za">Z-A</option>
+  </select>
+
+  <button id="showFavs">Show Favorites</button>
+  <button id="showAll">Show All</button>
+
+  <div id="app"></div>
+
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span id="closeModal">&times;</span>
+      <img id="modalImg" />
+      <h2 id="modalName"></h2>
+      <p id="modalRarity"></p>
+      <p id="modalClass"></p>
+    </div>
+  </div>
+
+</body>
+</html>

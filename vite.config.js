@@ -1,5 +1,8 @@
 import { defineConfig } from 'vite'
 
 export default defineConfig({
-  base: '/brawl-stars-app/'
+  base: '/brawl-stars-app/',
+  build: {
+    outDir: 'docs'
+  }
 })
