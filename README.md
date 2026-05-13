@@ -1,4 +1,5 @@
 # 🎮 Brawl Stars Web App
+https://hakkitncr.github.io/brawl-stars-app/
 
 ## 📌 Projectbeschrijving
 
